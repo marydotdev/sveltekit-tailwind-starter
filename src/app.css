@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+	overflow-wrap: break-word;
+	overflow-y: auto;
+	scrollbar-gutter: stable;
+}
+
+img {
+	max-width: 100%;
+	object-fit: cover;
+}

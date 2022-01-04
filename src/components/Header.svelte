@@ -1,5 +1,5 @@
 <script>
-    let dark;
+    let dark = false;
 
     if (typeof localStorage !== 'undefined') {
 		if (
@@ -9,6 +9,7 @@
 			dark = true;
 		}
 	}
+    
 	function toggleDarkMode() {
 		if (dark) {
 			document.documentElement.classList.remove('dark');
