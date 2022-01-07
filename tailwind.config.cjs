@@ -26,19 +26,6 @@ module.exports= {
             emerald: colors.emerald,
             lime: colors.lime,
           },
-          fontFamily: {
-            'display': ['Rubik'],
-            'mono': ['Fira Mono'],
-          },
-          animation: {
-            marquee: 'marquee 45s linear infinite',
-          },
-          keyframes: {
-            marquee: {
-              '0%': { transform: 'translateX(0%)' },
-              '100%': { transform: 'translateX(-100%)' },
-            },
-          },
         },
       },
 };
