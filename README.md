@@ -1,17 +1,17 @@
-# create-svelte
+# SveltKit Tailwind Starter
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Everything you need to build a SvelteKit project, configured with TailwindCSS.
 
-## Creating a project
+## Skip the Setup
 
-If you're seeing this, you've probably already done this step. Congrats!
+Save time and use this template to get up and running quickly. A skeleton SvelteKit project with Tailwind configured and extended for easy font and color customization.
+
+The official Tailwind Forms, Line Clamp, and Typography plug-ins have already been installed. To remove a plug-in, run:
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
+# replace with the right plugin name
+npm uninstall @tailwindcss/plugin -D
 
-# create a new project in my-app
-npm create svelte@latest my-app
 ```
 
 ## Developing

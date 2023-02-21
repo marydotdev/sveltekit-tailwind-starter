@@ -1,10 +1,10 @@
-<div class="mx-auto px-4 pb-12">
-	<div class="hero">
+<div class="relative mx-auto pb-12">
+	<div class="hero bg-dot-grid">
 		<div class="relative px-6 lg:px-8">
 			<div class="mx-auto max-w-2xl py-20 sm:py-24 lg:py-32">
 				<div class="text-center font-spacemono">
 					<h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-						SvelteKit + Tailwind
+						<span class="text-svelte">SvelteKit</span> <span class="text-tw">Tailwind</span>
 					</h1>
 					<p class="mt-6 text-lg leading-8 text-gray-600">
 						Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat
@@ -13,7 +13,7 @@
 					<div class="mt-10 flex items-center justify-center gap-x-6">
 						<a
 							href="/"
-							class="rounded-md bg-indigo-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+							class="rounded-md bg-sky-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
 							>Get started</a
 						>
 						<a href="/" class="text-base font-semibold leading-7 text-gray-900"
@@ -25,7 +25,7 @@
 		</div>
 	</div>
 
-	<div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+	<div class="grid grid-cols-1 lg:grid-cols-3 gap-12 px-4">
 		<div class="forms">
 			<!-- require('@tailwindcss/forms') -->
 			<div class="pb-8">
