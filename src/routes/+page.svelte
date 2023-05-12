@@ -39,12 +39,16 @@
 					</p>
 					<div class="mt-10 max-w-sm mx-auto flex items-center justify-center gap-x-2">
 						<a
-							href="/"
+							href="https://kit.svelte.dev/"
+							target="_blank"
+							rel="noopener noreferrer"
 							class="rounded-md bg-svelte/20 px-3.5 py-1.5 text-base font-semibold leading-7 text-svelte ring-1 ring-inset ring-svelte shadow-sm hover:bg-svelte/80 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-svelte flex items-center gap-2 max-w-fit mx-auto"
 							>SvelteKit Docs</a
 						>
 						<a
-							href="/"
+							href="https://tailwindcss.com/"
+							target="_blank"
+							rel="noopener noreferrer"
 							class="rounded-md bg-tw/20 px-3.5 py-1.5 text-base font-semibold leading-7 text-tw ring-1 ring-inset ring-tw shadow-sm hover:bg-tw/80 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tw flex items-center gap-2 max-w-fit mx-auto"
 							>Tailwind Docs</a
 						>

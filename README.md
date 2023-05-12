@@ -1,6 +1,6 @@
-# SveltKit Tailwind Starter
+# SvelteKit Tailwind Starter
 
-Everything you need to build a SvelteKit project, configured with TailwindCSS.
+Everything you need to build a SvelteKit project, preconfigured with TailwindCSS plugins.
 
 ## Skip the Setup
 
